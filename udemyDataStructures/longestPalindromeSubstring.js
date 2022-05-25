@@ -20,3 +20,5 @@ function longestPalindrome(s) {
 
   return s.slice(startIndex, startIndex + longest)
 }
+
+console.log(longestPalindrome('abacdfgdcaba'))
