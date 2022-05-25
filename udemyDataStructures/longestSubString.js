@@ -9,8 +9,7 @@ function lengthOfLongestSubstring(s) {
       start = indexes[curLetter] + 1;
     }
     indexes[curLetter] = i;
-    let curLength = i - start + 1
-    length = length > curLength ? length : curLength;
+    length = Math.max(length, i - start + 1)
   }
   return length
 }
