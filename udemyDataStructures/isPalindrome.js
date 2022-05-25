@@ -13,3 +13,5 @@ function isPalindrome(s) {
   }
   return true;
 }
+
+export default isPalindrome;
